@@ -15,16 +15,16 @@ public class Main {
         String color = scanner.nextLine();
 
         System.out.print("How many years have you worked in IT? ");
-        int years = scanner.nextInt();
+        int yearsInIt = scanner.nextInt();
 
         System.out.print("One more qustion, how old are you? ");
         int age = scanner.nextInt();
 
-        int startingAge = age - years;
+        int startingAge = age - yearsInIt;
 
         System.out.println("Hello " + name);
-        System.out.println("Really?? " + color + " is my favorite color tooThom.");
-        System.out.println("Wow " + years + " years is a long time.");
-        System.out.println("You started IT around age " + startingAge + " years.");
+        System.out.println("Really?? " + color + " is my favorite color too.");
+        System.out.println("Wow " + yearsInIt + " years is a long time.");
+        System.out.println("You started IT around age " + startingAge + ".");
     }
 }
